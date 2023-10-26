@@ -385,18 +385,10 @@ footer p{
 /*Estilos responsivos*/
 /*pantallas pequeñas*/
 @media screen and (min-width: 320px) and (max-width: 480px) {
-  .logo-header img{
-    display: none; /* Oculta el logo en pantallas pequeñas */
-  }
-
-  .main-nav {
-    display: flex; /* Muestra el menú en pantallas pequeñas */
-  }
-
-   .container {
-    font-size: 18px; /* Aumenta el tamaño de la fuente para hacerla más grande */
+    .container {
+    font-size: 22px; /* Aumenta el tamaño de la fuente para hacerla más grande */
     overflow: auto; /* Agrega una barra de desplazamiento si el contenido es demasiado largo */
-    max-height: 300px; /* Establece una altura máxima para el contenedor con desplazamiento */
+    max-height: 200px; /* Establece una altura máxima para el contenedor con desplazamiento */
     text-align: justify; /*Justifica el texto dentro del container*/
   }
 }
@@ -439,7 +431,7 @@ footer p{
   .container {
     font-size: 20px; /* Aumenta el tamaño de la fuente para hacerla más grande */
     overflow: auto; /* Agrega una barra de desplazamiento si el contenido es demasiado largo */
-    max-height: 350px; /* Establece una altura máxima para el contenedor con desplazamiento */
+    max-height: 200px; /* Establece una altura máxima para el contenedor con desplazamiento */
     text-align: justify; /*Justifica el texto dentro del container*/
   }
 
