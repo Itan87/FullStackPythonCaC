@@ -386,9 +386,9 @@ footer p{
 /*pantallas pequeñas*/
 @media screen and (min-width: 320px) and (max-width: 480px) {
     .container {
-    font-size: 22px; /* Aumenta el tamaño de la fuente para hacerla más grande */
+    font-size: 25px; /* Aumenta el tamaño de la fuente para hacerla más grande */
     overflow: auto; /* Agrega una barra de desplazamiento si el contenido es demasiado largo */
-    max-height: 200px; /* Establece una altura máxima para el contenedor con desplazamiento */
+    max-height: 150px; /* Establece una altura máxima para el contenedor con desplazamiento */
     text-align: justify; /*Justifica el texto dentro del container*/
   }
 }
@@ -429,7 +429,7 @@ footer p{
 }
 
   .container {
-    font-size: 20px; /* Aumenta el tamaño de la fuente para hacerla más grande */
+    font-size: 22px; /* Aumenta el tamaño de la fuente para hacerla más grande */
     overflow: auto; /* Agrega una barra de desplazamiento si el contenido es demasiado largo */
     max-height: 200px; /* Establece una altura máxima para el contenedor con desplazamiento */
     text-align: justify; /*Justifica el texto dentro del container*/
